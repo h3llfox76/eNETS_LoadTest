@@ -1,0 +1,71 @@
+<config>
+	<merchPrivKey>D:/JMeterCustomSampler/umapi/cert/prod/merchant-test-priv.pgp.asc</merchPrivKey>
+	<merchKeyPass>password1</merchKeyPass>
+	<netsPubKey>D:/JMeterCustomSampler/umapi/cert/prod/nets-full-pub.pgp.asc</netsPubKey>
+	
+	<!--
+	<payURL>https://test.enets.sg/enets2/PaymentListener.do</payURL>
+	<queryURL>https://test.enets.sg/enets2/QueryTxnStatus.do</queryURL>
+	-->
+	<payURL>https://www.enets.sg/enets2/PaymentListener.do</payURL>
+	<queryURL>https://www.enets.sg/enets2/QueryTxnStatus.do</queryURL>
+	
+	<usePGP>true</usePGP>	
+	<useProxy>false</useProxy>
+	<proxyHost></proxyHost>
+	<proxyPort></proxyPort>
+	<proxyUsername></proxyUsername>
+	<proxyPassword></proxyPassword>
+	<configPath>D:/JMeterCustomSampler/umapi/config</configPath>
+	<encryption>false</encryption>
+	<logLevel>fatal</logLevel>
+	<logFile>D:/JMeterCustomSampler/umapi/logs/umapi.log</logFile>
+	<TimeOut>600</TimeOut>
+	
+	<!-- -->
+	<!--
+	<umapimid>987669249</umapimid> //for 192.168.59	
+	<umapimid>968265000</umapimid> //for 192.168.60
+	<umapimid>957758003</umapimid> //for 192.168.61
+	<umapimid>917747000</umapimid> //for 192.168.62
+	<umapimid>918263000</umapimid> //for 192.168.63
+	<umapimid>918249002</umapimid> //for 192.168.64
+	-->
+	<umapimid>907760002</umapimid>
+	
+	<umapitid>127.0.0.1</umapitid>
+	<umapisubmitMode>S</umapisubmitMode> 
+	<umapipaymentMode>CC</umapipaymentMode>
+	<umapiamt>1234</umapiamt>
+	<umapicurrency>SGD</umapicurrency>
+	<umapimerchTxnTime>20140205 18:11:19.352</umapimerchTxnTime>
+	<umapimerCertId>1</umapimerCertId>
+	<umapipan>4111111111111111</umapipan>
+	<umapiexpiry>1901</umapiexpiry>
+	<umapistan>1</umapistan>
+	<umapipaymentType>SALE</umapipaymentType>
+	
+	<!--
+	<umapisuccessURL>https://test.enets.sg/umapi/success.jsp</umapisuccessURL>
+	<umapifailureURL>https://test.enets.sg/umapi/fail.jsp</umapifailureURL>
+	<umapinotifyURL>https://test.enets.sg/umapi/notify.jsp</umapinotifyURL>
+	<umapipostURL>https://test.enets.sg/umapi/post.jsp</umapipostURL>
+	<umapicancelURL>https://test.enets.sg/umapi/cancel.jsp</umapicancelURL>
+	-->
+	<!--
+	<umapisuccessURL>http://dcr.enets.sg:7080/enets2/success.jsp</umapisuccessURL>
+	<umapifailureURL>http://dcr.enets.sg:7080/enets2/fail.jsp</umapifailureURL>
+	<umapinotifyURL>http://dcr.enets.sg:7080/enets2/notify.jsp</umapinotifyURL>
+	<umapipostURL>http://dcr.enets.sg:7080/enets2/post.jsp</umapipostURL>
+	<umapicancelURL>http://dcr.enets.sg:8070/enets2/cancel.jsp</umapicancelURL>
+
+	<umapisuccessURLParams>Succ_Url_Param</umapisuccessURLParams>
+	<umapifailureURLParams>Failure_Url_Params</umapifailureURLParams>
+	<umapinotifyURLParams>Notify_Url_Params</umapinotifyURLParams>
+	<umapipostURLParams>Post_Url_Params</umapipostURLParams>
+	<umapicancelURLParams>Cancel_Url_Params</umapicancelURLParams>
+	-->
+			
+	<umapicardHolderName>Nobody</umapicardHolderName>
+	<umapicvv2>123</umapicvv2>
+</config>
