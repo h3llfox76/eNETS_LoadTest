@@ -74,3 +74,55 @@
 2016/08/29 17:29:08 INFO  - jmeter.engine.ClientJMeterEngine: sent run command to 192.168.1.62 
 2016/08/29 17:29:08 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,192.168.1.62) 
 2016/08/29 17:29:22 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,192.168.1.62) 
+2016/08/29 17:33:11 ERROR - jmeter.engine.ClientJMeterEngine: Failed to reset remote engine java.lang.IllegalStateException: The engine is not owned by this thread - cannot call reset
+	at org.apache.jmeter.engine.RemoteJMeterEngineImpl.checkOwner(RemoteJMeterEngineImpl.java:229)
+	at org.apache.jmeter.engine.RemoteJMeterEngineImpl.rreset(RemoteJMeterEngineImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.apache.jmeter.engine.RemoteJMeterEngineImpl_Stub.rreset(Unknown Source)
+	at org.apache.jmeter.engine.ClientJMeterEngine.reset(ClientJMeterEngine.java:95)
+	at org.apache.jmeter.gui.action.RemoteStart.doRemoteInit(RemoteStart.java:185)
+	at org.apache.jmeter.gui.action.RemoteStart.doAction(RemoteStart.java:79)
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:81)
+	at org.apache.jmeter.gui.action.ActionRouter.access$000(ActionRouter.java:40)
+	at org.apache.jmeter.gui.action.ActionRouter$1.run(ActionRouter.java:63)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:666)
+	at java.awt.EventQueue.access$400(EventQueue.java:81)
+	at java.awt.EventQueue$2.run(EventQueue.java:627)
+	at java.awt.EventQueue$2.run(EventQueue.java:625)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:636)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+
+2016/08/29 17:33:11 INFO  - jmeter.engine.ClientJMeterEngine: running clientengine run method 
+2016/08/29 17:33:11 INFO  - jmeter.samplers.DiskStoreSampleSender: Using DiskStoreSampleSender for this test run 
+2016/08/29 17:33:11 INFO  - jmeter.samplers.DiskStoreSampleSender: Using DiskStoreSampleSender for this test run 
+2016/08/29 17:33:11 INFO  - jmeter.samplers.DiskStoreSampleSender: Using DiskStoreSampleSender for this test run 
+2016/08/29 17:33:11 INFO  - jmeter.samplers.DiskStoreSampleSender: Using DiskStoreSampleSender for this test run 
+2016/08/29 17:33:11 INFO  - jmeter.engine.ClientJMeterEngine: sent test to 192.168.1.62 basedir='2015-09-23_2' 
+2016/08/29 17:33:11 INFO  - jmeter.engine.ClientJMeterEngine: Sending properties {} 
+2016/08/29 17:33:11 INFO  - jmeter.engine.ClientJMeterEngine: sent run command to 192.168.1.62 
+2016/08/29 17:33:11 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,192.168.1.62) 
+2016/08/29 17:33:24 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,192.168.1.62) 
