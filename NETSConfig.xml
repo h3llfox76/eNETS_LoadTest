@@ -1,7 +1,7 @@
 <config>
-	<merchPrivKey>D:/JMeterCustomSampler/umapi/cert/prod/merchant-test-priv.pgp.asc</merchPrivKey>
+	<merchPrivKey>D:/JMeterCustomSampler/umapi/cert/uat/merchant-test-priv.pgp.asc</merchPrivKey>
 	<merchKeyPass>password1</merchKeyPass>
-	<netsPubKey>D:/JMeterCustomSampler/umapi/cert/prod/nets-full-pub.pgp.asc</netsPubKey>
+	<netsPubKey>D:/JMeterCustomSampler/umapi/cert/uat/nets-full-pub.pgp.asc</netsPubKey>
 	
 	<!--
 	<payURL>https://test.enets.sg/enets2/PaymentListener.do</payURL>
@@ -39,7 +39,7 @@
 	<umapiamt>1234</umapiamt>
 	<umapicurrency>SGD</umapicurrency>
 	<umapimerchTxnTime>20140205 18:11:19.352</umapimerchTxnTime>
-	<umapimerCertId>1</umapimerCertId>
+	<umapimerCertId>100</umapimerCertId>
 	<umapipan>4111111111111111</umapipan>
 	<umapiexpiry>1901</umapiexpiry>
 	<umapistan>1</umapistan>
