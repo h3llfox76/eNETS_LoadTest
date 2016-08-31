@@ -1,0 +1,615 @@
+2016/08/31 14:23:04 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Loading user properties from: D:\JMeterCustomSampler\umapi\config\log4j.properties 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Loading system properties from: D:\Program Files\apache-jmeter-2.9\bin\system.properties 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Copyright (c) 1998-2013 The Apache Software Foundation 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Version 2.9 r1437961 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: java.version=1.6.0_35 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) Client VM 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: os.name=Windows 7 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: os.arch=x86 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: os.version=6.1 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: file.encoding=Cp1252 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: JMeterHome=D:\Program Files\apache-jmeter-2.9 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: user.dir  =D:\Program Files\apache-jmeter-2.9\bin 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: PWD       =D:\Program Files\apache-jmeter-2.9\bin 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: IP: 192.168.1.62 Name: PC7KC1SUPT05 FullName: PC7KC1SUPT05.netsdomain.nets.com.sg 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: user.classpath=D:/JMeterCustomSampler/umapi/config;D:/JMeterCustomSampler/umapi/lib/castor-0.9.7.jar;D:/JMeterCustomSampler/umapi/lib/commons-codec-1.3.jar;D:/JMeterCustomSampler/umapi/lib/commons-httpclient-3.0-rc3.jar;D:/JMeterCustomSampler/umapi/lib/commons-lang.jar;D:/JMeterCustomSampler/umapi/lib/commons-logging.jar;D:/JMeterCustomSampler/umapi/lib/cryptix-jce-api.jar;D:/JMeterCustomSampler/umapi/lib/cryptix-jce-provider.jar;D:/JMeterCustomSampler/umapi/lib/cryptix-message-api.jar;D:/JMeterCustomSampler/umapi/lib/cryptix-openpgp-provider.jar;D:/JMeterCustomSampler/umapi/lib/cryptix-pki-api.jar;D:/JMeterCustomSampler/umapi/lib/dom4j.jar;D:/JMeterCustomSampler/umapi/lib/log4j-1.2.9.jar;D:/JMeterCustomSampler/umapi/lib/umapi_v1.3.jar;D:/JMeterCustomSampler/umapi/lib/xerces.jar;D:/JMeterCustomSampler/sfa/config;D:/JMeterCustomSampler/sfa/lib/SFAv3.2_1.jar;D:/JMeterCustomSampler/sfa/lib/HTTPClient.jar;D:/JMeterCustomSampler/sfa/lib/Utils.jar;D:/JMeterCustomSampler/epg/config;D:/JMeterCustomSampler/epg/lib/epg-helpers.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/umapi/config 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/umapi/lib/castor-0.9.7.jar 
+2016/08/31 14:23:04 WARN  - jmeter.JMeter: Can't read D:/JMeterCustomSampler/umapi/lib/commons-codec-1.3.jar 
+2016/08/31 14:23:04 WARN  - jmeter.JMeter: Can't read D:/JMeterCustomSampler/umapi/lib/commons-httpclient-3.0-rc3.jar 
+2016/08/31 14:23:04 WARN  - jmeter.JMeter: Can't read D:/JMeterCustomSampler/umapi/lib/commons-lang.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/umapi/lib/commons-logging.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/umapi/lib/cryptix-jce-api.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/umapi/lib/cryptix-jce-provider.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/umapi/lib/cryptix-message-api.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/umapi/lib/cryptix-openpgp-provider.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/umapi/lib/cryptix-pki-api.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/umapi/lib/dom4j.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/umapi/lib/log4j-1.2.9.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/umapi/lib/umapi_v1.3.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/umapi/lib/xerces.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/sfa/config 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/sfa/lib/SFAv3.2_1.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/sfa/lib/HTTPClient.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/sfa/lib/Utils.jar 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/epg/config 
+2016/08/31 14:23:04 INFO  - jmeter.JMeter: Adding to classpath: D:/JMeterCustomSampler/epg/lib/epg-helpers.jar 
+2016/08/31 14:23:04 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Starting backing engine on 1099 
+2016/08/31 14:23:04 INFO  - jmeter.engine.RemoteJMeterEngineImpl: IP address=192.168.1.62 
+2016/08/31 14:23:04 INFO  - jmeter.engine.RemoteJMeterEngineImpl: IP address is a site-local address; this may cause problems with remote access.
+	Can be overridden by defining the system property 'java.rmi.server.hostname' - see jmeter-server script file 
+2016/08/31 14:23:04 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Creating RMI registry (server.rmi.create=true) 
+2016/08/31 14:23:04 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Bound to registry on port 1099 
+2016/08/31 14:37:01 INFO  - jmeter.samplers.DiskStoreSampleSender: Using DiskStoreSampleSender for this test run 
+2016/08/31 14:37:01 INFO  - jmeter.samplers.DiskStoreSampleSender: Using DiskStoreSampleSender for this test run 
+2016/08/31 14:37:01 INFO  - jmeter.samplers.DiskStoreSampleSender: Using DiskStoreSampleSender for this test run 
+2016/08/31 14:37:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2016/08/31 14:37:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2016/08/31 14:37:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2016/08/31 14:37:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2016/08/31 14:37:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2016/08/31 14:37:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2016/08/31 14:37:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Reuse SSL session context on subsequent iterations: true 
+2016/08/31 14:37:01 INFO  - jmeter.samplers.DiskStoreSampleSender: Using DiskStoreSampleSender for this test run 
+2016/08/31 14:37:01 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Creating JMeter engine on host 192.168.1.62 base '2015-09-23_2' 
+2016/08/31 14:37:01 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2016/08/31 14:37:01 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2016/08/31 14:37:01 INFO  - jmeter.services.FileServer: Default base='D:\Program Files\apache-jmeter-2.9\bin' 
+2016/08/31 14:37:01 INFO  - jmeter.services.FileServer: Set new base='2015-09-23_2' 
+2016/08/31 14:37:01 INFO  - jmeter.engine.StandardJMeterEngine: Applying properties {} 
+2016/08/31 14:37:01 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Running test 
+2016/08/31 14:37:01 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/08/31 14:37:01 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2016/08/31 14:37:01 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2016/08/31 14:37:01 INFO  - jmeter.protocol.java.sampler.JavaSampler: Created class: com.enets.loadtest.UmapiS2STest. Uses tearDownTest: false 
+2016/08/31 14:37:01 INFO  - jmeter.protocol.java.sampler.JavaSampler: Created class: com.enets.loadtest.SFATest. Uses tearDownTest: false 
+2016/08/31 14:37:01 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - HTML 
+2016/08/31 14:37:01 INFO  - jmeter.engine.StandardJMeterEngine: Starting 140 threads for group Thread Group - HTML. 
+2016/08/31 14:37:01 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/08/31 14:37:01 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 140 ramp-up 500 perThread 3571.4285 delayedStart=false 
+2016/08/31 14:37:01 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2016/08/31 14:37:01 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2016/08/31 14:37:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-1 
+2016/08/31 14:37:01 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/08/31 14:37:01 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : Thread Group - UMAPI 
+2016/08/31 14:37:01 INFO  - jmeter.engine.StandardJMeterEngine: Starting 36 threads for group Thread Group - UMAPI. 
+2016/08/31 14:37:01 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/08/31 14:37:01 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 36 ramp-up 500 perThread 13888.889 delayedStart=false 
+2016/08/31 14:37:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-1 
+2016/08/31 14:37:02 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
+2016/08/31 14:37:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group - SFA 
+2016/08/31 14:37:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 24 threads for group Thread Group - SFA. 
+2016/08/31 14:37:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/08/31 14:37:02 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 3 threads 24 ramp-up 500 perThread 20833.334 delayedStart=false 
+2016/08/31 14:37:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-1 
+2016/08/31 14:37:02 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2016/08/31 14:37:02 INFO  - jmeter.threads.ThreadGroup: Started thread group number 3 
+2016/08/31 14:37:02 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/08/31 14:37:02 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2016/08/31 14:37:02 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2016/08/31 14:37:02 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2016/08/31 14:37:02 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = PC7KC1SUPT05 
+2016/08/31 14:37:02 INFO  - jmeter.protocol.http.sampler.HTTPHC3Impl: HTTP request retry count = 1 
+2016/08/31 14:37:02 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
+2016/08/31 14:37:02 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
+2016/08/31 14:37:02 INFO  - jmeter.util.SSLManager: JmeterKeyStore Location:  type JKS 
+2016/08/31 14:37:02 INFO  - jmeter.util.SSLManager: KeyStore created OK 
+2016/08/31 14:37:02 WARN  - jmeter.util.SSLManager: Keystore file not found, loading empty keystore 
+2016/08/31 14:37:05 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-2 
+2016/08/31 14:37:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-3 
+2016/08/31 14:37:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-4 
+2016/08/31 14:37:15 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-2 
+2016/08/31 14:37:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-5 
+2016/08/31 14:37:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-6 
+2016/08/31 14:37:22 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-2 
+2016/08/31 14:37:23 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-7 
+2016/08/31 14:37:27 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-8 
+2016/08/31 14:37:29 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-3 
+2016/08/31 14:37:30 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-9 
+2016/08/31 14:37:34 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-10 
+2016/08/31 14:37:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-11 
+2016/08/31 14:37:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-12 
+2016/08/31 14:37:43 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-3 
+2016/08/31 14:37:43 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-4 
+2016/08/31 14:37:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-13 
+2016/08/31 14:37:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-14 
+2016/08/31 14:37:51 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-15 
+2016/08/31 14:37:55 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-16 
+2016/08/31 14:37:57 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-5 
+2016/08/31 14:37:59 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-17 
+2016/08/31 14:38:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-18 
+2016/08/31 14:38:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-4 
+2016/08/31 14:38:06 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-19 
+2016/08/31 14:38:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-20 
+2016/08/31 14:38:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-6 
+2016/08/31 14:38:13 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-21 
+2016/08/31 14:38:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-22 
+2016/08/31 14:38:20 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-23 
+2016/08/31 14:38:24 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-24 
+2016/08/31 14:38:25 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-7 
+2016/08/31 14:38:25 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-5 
+2016/08/31 14:38:27 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-25 
+2016/08/31 14:38:31 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-26 
+2016/08/31 14:38:34 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-27 
+2016/08/31 14:38:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-28 
+2016/08/31 14:38:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-8 
+2016/08/31 14:38:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-29 
+2016/08/31 14:38:45 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-30 
+2016/08/31 14:38:46 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-6 
+2016/08/31 14:38:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-31 
+2016/08/31 14:38:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-32 
+2016/08/31 14:38:53 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-9 
+2016/08/31 14:38:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-33 
+2016/08/31 14:38:59 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-34 
+2016/08/31 14:39:03 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-35 
+2016/08/31 14:39:06 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-36 
+2016/08/31 14:39:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-10 
+2016/08/31 14:39:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-7 
+2016/08/31 14:39:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-37 
+2016/08/31 14:39:14 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-38 
+2016/08/31 14:39:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-39 
+2016/08/31 14:39:20 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-11 
+2016/08/31 14:39:21 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-40 
+2016/08/31 14:39:24 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-41 
+2016/08/31 14:39:27 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-8 
+2016/08/31 14:39:28 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-42 
+2016/08/31 14:39:31 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-43 
+2016/08/31 14:39:34 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-12 
+2016/08/31 14:39:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-44 
+2016/08/31 14:39:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-45 
+2016/08/31 14:39:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-46 
+2016/08/31 14:39:46 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-47 
+2016/08/31 14:39:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-13 
+2016/08/31 14:39:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-9 
+2016/08/31 14:39:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-48 
+2016/08/31 14:39:53 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-49 
+2016/08/31 14:39:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-50 
+2016/08/31 14:40:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-51 
+2016/08/31 14:40:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-14 
+2016/08/31 14:40:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-52 
+2016/08/31 14:40:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-53 
+2016/08/31 14:40:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-10 
+2016/08/31 14:40:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-54 
+2016/08/31 14:40:14 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-55 
+2016/08/31 14:40:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-15 
+2016/08/31 14:40:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-56 
+2016/08/31 14:40:21 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-57 
+2016/08/31 14:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-58 
+2016/08/31 14:40:29 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-59 
+2016/08/31 14:40:30 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-11 
+2016/08/31 14:40:30 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-16 
+2016/08/31 14:40:32 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-60 
+2016/08/31 14:40:36 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-61 
+2016/08/31 14:40:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-62 
+2016/08/31 14:40:43 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-63 
+2016/08/31 14:40:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-17 
+2016/08/31 14:40:47 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-64 
+2016/08/31 14:40:50 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-65 
+2016/08/31 14:40:51 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-12 
+2016/08/31 14:40:54 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-66 
+2016/08/31 14:40:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-18 
+2016/08/31 14:40:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-67 
+2016/08/31 14:41:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-68 
+2016/08/31 14:41:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-69 
+2016/08/31 14:41:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-70 
+2016/08/31 14:41:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-71 
+2016/08/31 14:41:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-19 
+2016/08/31 14:41:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-13 
+2016/08/31 14:41:15 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-72 
+2016/08/31 14:41:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-73 
+2016/08/31 14:41:22 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-74 
+2016/08/31 14:41:26 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-20 
+2016/08/31 14:41:26 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-75 
+2016/08/31 14:41:29 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-76 
+2016/08/31 14:41:32 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-14 
+2016/08/31 14:41:33 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-77 
+2016/08/31 14:41:36 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-78 
+2016/08/31 14:41:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-21 
+2016/08/31 14:41:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-79 
+2016/08/31 14:41:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-80 
+2016/08/31 14:41:47 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-81 
+2016/08/31 14:41:51 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-82 
+2016/08/31 14:41:53 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-22 
+2016/08/31 14:41:53 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-15 
+2016/08/31 14:41:54 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-83 
+2016/08/31 14:41:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-84 
+2016/08/31 14:42:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-85 
+2016/08/31 14:42:05 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-86 
+2016/08/31 14:42:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-23 
+2016/08/31 14:42:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-87 
+2016/08/31 14:42:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-88 
+2016/08/31 14:42:14 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-16 
+2016/08/31 14:42:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-89 
+2016/08/31 14:42:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-90 
+2016/08/31 14:42:21 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-24 
+2016/08/31 14:42:23 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-91 
+2016/08/31 14:42:26 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-92 
+2016/08/31 14:42:30 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-93 
+2016/08/31 14:42:34 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-94 
+2016/08/31 14:42:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-17 
+2016/08/31 14:42:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-25 
+2016/08/31 14:42:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-95 
+2016/08/31 14:42:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-96 
+2016/08/31 14:42:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-97 
+2016/08/31 14:42:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-98 
+2016/08/31 14:42:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-26 
+2016/08/31 14:42:51 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-99 
+2016/08/31 14:42:55 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-100 
+2016/08/31 14:42:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-18 
+2016/08/31 14:42:59 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-101 
+2016/08/31 14:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-102 
+2016/08/31 14:43:03 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-27 
+2016/08/31 14:43:06 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-103 
+2016/08/31 14:43:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-104 
+2016/08/31 14:43:13 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-105 
+2016/08/31 14:43:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-106 
+2016/08/31 14:43:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-28 
+2016/08/31 14:43:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-19 
+2016/08/31 14:43:17 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:43:20 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:43:20 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-107 
+2016/08/31 14:43:24 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-108 
+2016/08/31 14:43:27 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-109 
+2016/08/31 14:43:28 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:43:29 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:43:29 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:43:30 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:43:30 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-29 
+2016/08/31 14:43:31 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-110 
+2016/08/31 14:43:34 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-111 
+2016/08/31 14:43:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-20 
+2016/08/31 14:43:38 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:43:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-112 
+2016/08/31 14:43:41 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:43:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-113 
+2016/08/31 14:43:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-30 
+2016/08/31 14:43:46 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-114 
+2016/08/31 14:43:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-115 
+2016/08/31 14:43:49 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:43:51 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:43:51 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:43:53 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:43:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-117 
+2016/08/31 14:43:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-21 
+2016/08/31 14:43:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-31 
+2016/08/31 14:43:59 INFO  - org.apache.commons.httpclient.HttpMethodDirector: I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server dc2.enets.sg failed to respond 
+2016/08/31 14:43:59 INFO  - org.apache.commons.httpclient.HttpMethodDirector: Retrying request 
+2016/08/31 14:43:59 INFO  - org.apache.commons.httpclient.HttpMethodDirector: I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server dc2.enets.sg failed to respond 
+2016/08/31 14:43:59 INFO  - org.apache.commons.httpclient.HttpMethodDirector: Retrying request 
+2016/08/31 14:43:59 INFO  - org.apache.commons.httpclient.HttpMethodDirector: I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server dc2.enets.sg failed to respond 
+2016/08/31 14:43:59 INFO  - org.apache.commons.httpclient.HttpMethodDirector: Retrying request 
+2016/08/31 14:44:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-118 
+2016/08/31 14:44:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-116 
+2016/08/31 14:44:03 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-119 
+2016/08/31 14:44:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-120 
+2016/08/31 14:44:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-121 
+2016/08/31 14:44:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-32 
+2016/08/31 14:44:14 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-122 
+2016/08/31 14:44:16 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:16 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:17 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-123 
+2016/08/31 14:44:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-22 
+2016/08/31 14:44:21 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-124 
+2016/08/31 14:44:23 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:23 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:24 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-125 
+2016/08/31 14:44:26 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-33 
+2016/08/31 14:44:28 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-126 
+2016/08/31 14:44:28 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:29 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:31 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-127 
+2016/08/31 14:44:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-128 
+2016/08/31 14:44:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-129 
+2016/08/31 14:44:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-34 
+2016/08/31 14:44:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-23 
+2016/08/31 14:44:40 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-130 
+2016/08/31 14:44:44 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:44 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:44 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:46 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-131 
+2016/08/31 14:44:47 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:48 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-132 
+2016/08/31 14:44:50 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:44:53 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-133 
+2016/08/31 14:44:54 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-35 
+2016/08/31 14:44:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-134 
+2016/08/31 14:45:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-135 
+2016/08/31 14:45:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - SFA 3-24 
+2016/08/31 14:45:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-136 
+2016/08/31 14:45:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-137 
+2016/08/31 14:45:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - UMAPI 2-36 
+2016/08/31 14:45:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-138 
+2016/08/31 14:45:14 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-139 
+2016/08/31 14:45:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group - HTML 1-140 
+2016/08/31 14:47:15 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:47:15 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Stopping test ... 
+2016/08/31 14:47:15 INFO  - jmeter.engine.RemoteJMeterEngineImpl: ... stopped 
+2016/08/31 14:47:15 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group - HTML 1-113 
+2016/08/31 14:47:15 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group - HTML 1-113 sampler: HTTP Request - HTML 
+2016/08/31 14:47:19 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group - HTML 1-113 
+2016/08/31 14:47:19 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group - HTML 1-98 
+2016/08/31 14:47:19 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group - HTML 1-98 sampler: HTTP Request - HTML 
+2016/08/31 14:47:19 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group - HTML 1-98 
+2016/08/31 14:47:19 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group - HTML 1-89 
+2016/08/31 14:47:19 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group - HTML 1-89 sampler: HTTP Request - HTML 
+2016/08/31 14:47:19 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group - HTML 1-135 
+2016/08/31 14:47:19 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group - HTML 1-135 sampler: HTTP Request - HTML 
+2016/08/31 14:47:19 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group - HTML 1-89 
+2016/08/31 14:47:19 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group - HTML 1-120 
+2016/08/31 14:47:19 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group - HTML 1-120 sampler: HTTP Request - HTML 
+2016/08/31 14:47:19 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group - HTML 1-135 
+2016/08/31 14:47:25 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:47:30 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:47:33 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:47:41 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:50:40 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:50:47 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:50:49 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 14:52:24 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 15:02:17 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/08/31 15:05:52 ERROR - jmeter.threads.JMeterThread: Error while processing sampler 'Java Request - UMAPI' : java.lang.NullPointerException
+	at com.enets.loadtest.UmapiMsg.send(UmapiMsg.java:118)
+	at com.enets.loadtest.UmapiS2STest.runTest(UmapiS2STest.java:27)
+	at org.apache.jmeter.protocol.java.sampler.JavaSampler.sample(JavaSampler.java:191)
+	at org.apache.jmeter.threads.JMeterThread.process_sampler(JMeterThread.java:428)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256)
+	at java.lang.Thread.run(Thread.java:662)
+
